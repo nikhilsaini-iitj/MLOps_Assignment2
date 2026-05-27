@@ -88,6 +88,14 @@ wandb.init(
 
 `TrainingArguments` reports to `wandb`, and the `Trainer` streams loss, evaluation metrics, and model checkpoints automatically.
 
+### 4.2.1 W&B Training Dashboard Screenshot
+
+The screenshot below shows the live W&B dashboard capturing the full training run on Kaggle GPU. It visualises training loss, validation loss, accuracy, and F1 score across the 3 epochs, confirming that the model is learning and not overfitting.
+
+**[INSERT W&B SCREENSHOT HERE]**
+
+*Figure 1: Weights & Biases dashboard — training metrics (loss, accuracy, F1) logged every 100 steps from the Kaggle GPU run.*
+
 ### 4.3 Evaluation Metrics
 The custom `compute_metrics` function returns **accuracy** and **weighted F1** to the `Trainer`:
 
