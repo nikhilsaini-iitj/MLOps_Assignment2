@@ -1,0 +1,9 @@
+transformers>=4.30.0
+torch>=2.0.0
+scikit-learn
+wandb
+requests
+numpy
+pandas
+tqdm
+huggingface_hub
